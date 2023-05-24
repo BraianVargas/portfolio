@@ -93,6 +93,9 @@ ul{
      padding: .2em;
      margin: .2em;
 }
-.card-body{
-     background-color: ;
+.cv-preview {
+     border: 2px solid #ccc;
+     border-radius: 8px;
+     box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+     overflow: hidden;
 }
