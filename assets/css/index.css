@@ -14,20 +14,21 @@ html {
      background-color: #222;
 }
 .bg-sec{
-     background-color: ;
+     background-color: var(--bg);
 }
 .inicio {
-     height: 100vh;
      overflow-y: auto;
      background-image: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.568)), url(../img/fondo-about.jpg);
      background-position: center;
      background-size: cover;
      color: #fff;
+     overflow: hidden;
      background-color: var(--bg);
+}
 
 .card {
      background-color: #222;
-     color: #fff;
+     color: var(--bg);
 }
 
 /* Animaciones */
@@ -42,7 +43,7 @@ html {
 }
 
 .fade-in {
-     animation: fadeIn 1s ease-in-out;
+     animation: fadeIn 1.5s ease-in-out;
 }
 
 @keyframes slideInFromLeft {
@@ -72,10 +73,26 @@ html {
 .slide-in-from-right {
      animation: slideInFromRight 0.5s ease-in-out;
 }
+
 #contact{
-     background-image: linear-gradient(rgba(0, 0, 0, 0.589), rgba(0, 0, 0, 0.568)), url(../img/fondo-fin.jpg);
      background-position: center;
      background-size: cover;
      color: #fff;
 
+}
+
+ul{
+     list-style: none;
+}
+
+.stacks ul li svg{
+     width: 20px;
+}
+.icono-lang{
+     width: 50px;
+     padding: .2em;
+     margin: .2em;
+}
+.card-body{
+     background-color: ;
 }
